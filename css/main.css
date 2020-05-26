@@ -1,0 +1,37 @@
+body{
+ font-family:  'Permanent Marker', cursive;
+
+}
+.height{
+ min-height: 100vh;
+}
+nav{
+ position: fixed!important; /* Set the navbar to fixed position */
+  top: 0!important; /* Position the navbar at the top of the page */
+  width: 100%!important; /* Full width */
+  z-index: 1000000000;
+}
+#modal{
+ z-index: 100000000000000;
+}
+.title-underline{
+ width: 200px;
+ height: 10px;
+ margin: 0 auto;
+ 
+}
+.height-80{
+ min-height:80vh;
+}
+
+.about-picture{
+ background: url(../img/about-bcg.jpeg)center/cover no-repeat fixed;
+ /* background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-attachment: fixed; */
+}
+#filler,#progress{
+ background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)) ,url(../img/projects-1.jpeg)center/cover no-repeat fixed;
+ 
+}
